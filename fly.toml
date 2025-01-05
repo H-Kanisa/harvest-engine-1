@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for harvest-engine on 2024-12-30T20:23:32Z
+# fly.toml app configuration file generated for harvest-engine-1 on 2025-01-05T12:25:29Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'harvest-engine'
-primary_region = 'lhr'
+app = 'harvest-engine-1'
+primary_region = 'jnb'
 
 [build]
 
 [http_service]
-  internal_port = 8080
+  internal_port = 3000
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
